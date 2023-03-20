@@ -36,7 +36,7 @@ This repository contains three PDDL files:
 `Monster1.pddl`: The first problem file describes the initial state and goal for the "Monster1" problem.
 
 
-`problem2.pddl`: The second problem file describes the initial state and goal for the "Monster2" problem.
+`Monster2.pddl`: The second problem file describes the initial state and goal for the "Monster2" problem.
 
 ## Conclusion
 
