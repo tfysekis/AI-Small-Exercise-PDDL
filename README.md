@@ -1,10 +1,43 @@
 # AI-Small-Exercise-PDDL
 
-PDDL is an attempt to standardize Artificial Intelligence planning languages.I created a small domain with hero - rooms - monsters - pits - treasures - weapons.The goal is from the original position of the hero to take all the treasures and go back alive. <br />  <br /> 
-There are 2 problems (Monster1,Monster2) for our hero.  <br /> 
-Here is the image of the first :  <br />  ![df](https://user-images.githubusercontent.com/72731525/118113544-1cff9680-b3ef-11eb-8817-dedce265c201.png)
+This repository contains a small exercise in PDDL, which is an Artificial Intelligence planning language standard. The exercise involves creating a domain with a hero, rooms, monsters, pits, treasures, and weapons. The goal is for the hero to collect all the treasures and return back to the starting position alive.
 
-Here is the image of the second : <br /> ![mon2](https://user-images.githubusercontent.com/72731525/118113690-45879080-b3ef-11eb-9dac-1e3ba7ea2799.png) <br /> <br /> 
+## Problems
 
-More obvious details: Hero needs to take a weapon so he can pass the monster cave - same goes for the cave with the pit.To pass the pit he needs the flying shoes.He can only use the weapons one time,if he wants to pass the monster cave (again or for the first time) he needs to take a weapon from any close cave. <br />
-There are 3 PDDL files , the domain and the 2 problem.
+There are two problems provided for the hero to solve: "Monster1" and "Monster2".
+
+The first problem is depicted in the following image:
+
+</br>
+
+![df](https://user-images.githubusercontent.com/72731525/118113544-1cff9680-b3ef-11eb-8817-dedce265c201.png)
+
+</br>
+
+
+The second problem is depicted in the following image:
+
+</br>
+
+![mon2](https://user-images.githubusercontent.com/72731525/118113690-45879080-b3ef-11eb-9dac-1e3ba7ea2799.png)
+
+</br>
+
+## Details
+
+To successfully complete the exercise, the hero needs to take a weapon to pass the monster cave and flying shoes to cross the pit. The hero can only use the weapons once, so if they want to pass the monster cave again or for the first time, they need to retrieve a weapon from any nearby cave.
+
+## PDDL Files
+
+This repository contains three PDDL files:
+
+`monsterDomain.pddl`: The domain file describes the objects, actions, and their preconditions and effects for the problem.
+
+`Monster1.pddl`: The first problem file describes the initial state and goal for the "Monster1" problem.
+
+
+`problem2.pddl`: The second problem file describes the initial state and goal for the "Monster2" problem.
+
+## Conclusion
+
+This exercise is a good example of how PDDL can be used to model planning problems in Artificial Intelligence. The provided problems demonstrate the importance of careful planning and resource management in achieving a goal.
